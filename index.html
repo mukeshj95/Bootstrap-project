@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Double spring task</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        
+        <div id="sidebar-wrapper" class="col-md-4 col-lg-4">
+            <ul class="sidebar-nav">
+                
+                <li>
+                    <a href="#">Profit</a>
+                </li>
+                <li>
+                    <a href="#">Explore</a>
+                </li>
+                <li>
+                    <a href="#">Profile</a>
+                </li>
+                <li>
+                    <a href="#">Photos</a>
+                </li>
+                <li>
+                    <a href="#">Videos</a>
+                </li>
+                <li>
+                    <a href="#">Invite<span class="badge">45</span></a>
+                </li>
+                <li>
+                    <a href="#">Music</a>
+                </li>
+                <li>
+                    <a href="#">Candidates</a>
+                </li>
+                <li>
+                    <a href="#">Calender</a>
+                </li>
+                <li>
+                    <a href="#">Feedback</a>
+                </li>
+                <li>
+                    <a href="#">Help</a>
+                </li>
+                <br />
+                
+                  <input style="background-color: black; border-color: black;" type="text" name="search" class="form-control" placeholder="search" />
+                <br />
+                <p>
+                    <a href="#" id="bottom">FRIENDS<span class="glyphicon glyphicon-cog" id="icons"></span></a>
+                </p>
+                <li>
+                    <a href="#"><img class="img-circle" src="image/james.jpg">James<span class="badge" id="pic_badge">2</span></a>
+                    </li>
+                <li>
+                    <a href="#"><img class="img-circle" src="image/images1.jpg">Ronaldo</a>
+                    </li>
+                <li>
+                    <a href="#"><img class="img-circle" src="image/ramos.jpg">Sergio</a>
+                    </li>
+                <li>
+                    <a href="#"><img class="img-circle" src="image/marcelo.jpg">Marcelo</a>
+                </li>
+                <li>
+                    <a href="#"><img class="img-circle" src="image/pepe.jpg">Pepe</a>
+                </li>                
+            </ul>
+
+        </div>
+        <!-- /#sidebar-wrapper -->
+        <div class = "col-md-12 col-sm-6 col-xs-12" id="header">
+       <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header col-lg-6 col-xs-12">
+    <h4>Your Profit</h4>
+        <!-- /#page-content-wrapper --></div>
+        <div class="navbar-header col-lg-5 col-xs-12" id="nav-header">
+        <img src="image/james.jpg" id = "pic" alt="pic"></div>
+        <div class="navbar-header col-lg-1" id="nav-headbottom">
+        <h5>Mukesh Jaiswal</h5>
+    </div>
+    </div>
+    </nav>
+
+    <div class="col-md-8 col-sm-8 col-xs-8" style="height: 400px; margin-left: 55px;">
+        <img src="Image/graph.png" alt="graph" id="graph">
+    <br />
+
+    <div class="col-md-3 col-sm-3 col-xs-6" id="box1"><strong>3,594</strong>
+    <p id="sub0">New Order</p></div>
+    <div class="col-md-3 col-sm-3 col-xs-6" id="box3"><strong>105,443</strong>
+    <p id="sub">Total sales</p></div>
+    <div class="col-md-3 col-sm-3 col-xs-6" id="box3"><strong>$50,890</strong>
+    <p id="sub1">total paid out</p></div>
+    <div class="col-md-3 col-sm-3 col-xs-6" id="box4"><strong>453</strong>
+    <p id="sub2">new customer</p></div>
+
+    <div class="col-md-3" id="subbox1"><span class="glyphicon glyphicon-circle-arrow-up" style="color: green;"></span> 13% Increase</div>
+    <div class="col-md-3" id="subbox2"><span class="glyphicon glyphicon-circle-arrow-up" style="color: green;"></span> 4% increase</div>
+    <div class="col-md-3" id="subbox2"><span class="glyphicon glyphicon-circle-arrow-down" style="color: red;"></span> 21% decrease</div>
+    <div class="col-md-3" id="subbox3"><span class="glyphicon glyphicon-circle-arrow-down" style="color: red"></span> 5% decrease</div>
+    <br />
+    <div class="col-md-12 col-sm-12 col-xs-12" id="table">
+    <table class="table table-striped">
+    <thead>
+      <tr style="background-color: white">
+        <th>Referrer</th>
+        <th>views</th>
+        <th>sales</th>
+        <th>conversion</th>
+        <th>total  <span class="glyphicon glyphicon-circle-arrow-down"></span></th>
+      </tr>
+      <br />
+    </thead>
+    <tbody>
+      <tr>
+        <td>note.com</td>
+        <td>54</td>
+        <td>12</td>
+        <td>10.5%</td>
+        <td>$50</td>
+      </tr>
+      <tr>
+        <td>diecr, email, im</td>
+        <td>96</td>
+        <td>24</td>
+        <td>25%</td>
+        <td>$10</td>
+      </tr>
+      <tr>
+        <td>recomended</td>
+        <td>5</td>
+        <td>5</td>
+        <td>100%</td>
+        <td>$10</td>
+      </tr>
+      <tr>
+        <td>Dribble</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0.0%</td>
+        <td>$0</td>
+      </tr>
+      <tr>
+        <td>google.co.uk</td>
+        <td>5</td>
+        <td>0</td>
+        <td>0.0%</td>
+        <td>$0</td>
+      </tr>
+      <tr>
+        <td>google.co.tr</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0.0%</td>
+        <td>$0</td>
+      </tr>
+      <tr>
+        <td>mail.google.co</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0.0%</td>
+        <td>$0</td>
+      </tr>
+      <tr>
+        <td>facebook.com</td>
+        <td>5</td>
+        <td>0</td>
+        <td>0.0%</td>
+        <td>$0</td>
+      </tr>
+    </tbody>
+  </table>
+    </div>
+    </div>
+    <!-- /#wrapper -->
+    <div class="col-md-3" id="sidebar">
+        <div class="bg">
+        
+            <img class="profile" src="Image/james.jpg" img align="middle" alt="profile pic">
+        </div>
+    	<br />
+        <br />
+        <h4 style="text-align: center; margin: 2px; padding: 2px;">Mukesh Jaiswal</h4>
+        <p style="text-align: center; margin: 2px; padding: 2px; font-size: 11px;">Front End Developer</p>
+        <hr>
+        <p style="font-size: 11px; margin: 4px">Email
+        <br />
+        <strong>mukeshj95@gmail.com</strong>
+        </p>
+        <p style="font-size: 11px; margin: 4px">
+        Mobile
+        <br />
+        <strong>+919412415650</strong>
+        </p>
+        <p style="font-size: 11px; margin: 4px">
+        SkillLevel
+        <br />
+        <strong>Senior(50k+)</strong>
+        </p>
+        <p style="font-size: 11px; margin: 4px">
+        Paid Out Limit
+        <hr class="style-eight" />
+        </p>
+        <p style="font-size: 11px; margin: 4px">
+        Bio
+        </p>
+        <p style= "font-size: 12px; margin: 4px">
+        Mukesh Jaiswal is Front End developer trainee student at Udacity.
+        He completed engineering fron JSS Noida. He likes designing websites.
+        <p style="font-size: 11px; margin: 4px">
+        Skills
+        <p/>
+        <p style="font-size: 11px; margin: 0;">
+        <button type="button" class="btn btn-primary" id="button1" style="font-size: 10px;">Photography</button>
+        <button type="button" class="btn btn-success" id="button2" style="font-size: 10px;">teacher</button>
+        <button type="button" class="btn btn-defau" id="button3" style="font-size: 10px;">traveller</button>
+        <button type="button" class="btn btn-danger" id="button4" style="font-size: 10px;">ui</button>
+        </p>
+        <br />
+
+       
+      </div>
+
+
+
+    </div>
+
+<div id="back" class="col-md-3">
+<br />
+	<p>upcomming events & projects</p>
+	<p><strong style="font-size: 12px;">Web Optimization DOM  </strong><button class="btn btn-primary" id="button5" style="font-size: 8px">Designing</button>
+	February 2017 Benguluru India</p>
+	<p><strong style="font-size: 12px;">Udacity degree  </strong><button class="btn btn-info" id="button6" style="font-size: 8px">developer</button>
+	April 2017 Benguluru India</p>
+</div>
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+   
+
+</body>
+
+</html>
